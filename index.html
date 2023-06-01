@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors Game</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="iteration-counter">Iteration: 0</div>
+
+  <div id="game-area"></div>
+
+  <div id="controls">
+    <button id="play-pause">Play</button>
+    <button id="settings">Settings</button>
+  </div>
+  <div id="settings-menu" style="display: none;">
+    <label for="speed">Speed (ms): </label>
+    <input type="number" id="speed" min="1" value="2">
+    <br>
+    <label for="iterations">Iterations until pause: </label>
+    <input type="number" id="iterations" min="1" value="10000">
+    <br>
+    <button id="apply-settings">Apply</button>
+  </div>
+  <div id="message" style="display: none;"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>

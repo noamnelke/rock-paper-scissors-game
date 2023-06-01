@@ -1,0 +1,32 @@
+#game-area {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.game-piece {
+  position: absolute;
+  font-size: 20px;
+}
+
+#controls {
+  margin-top: 10px;
+}
+
+#settings-menu {
+  margin-top: 10px;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#iteration-counter {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
